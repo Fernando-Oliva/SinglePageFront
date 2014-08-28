@@ -25,6 +25,12 @@ footer
 	margin-right:100px;
 }
 
+.becode
+{
+	font-family:Courier;
+}
+
+
 /* Styles for basic forms
 -----------------------------------------------------------*/
 fieldset {
@@ -123,5 +129,4 @@ header
 .descr
 {
 	text-align:right;
-	
 }

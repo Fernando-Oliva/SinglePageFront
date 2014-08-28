@@ -134,6 +134,7 @@
     <Content Include="Content\img\3.png" />
     <Content Include="Content\img\4.png" />
     <Content Include="Content\img\5.png" />
+    <Content Include="Content\img\closebox.png" />
     <Content Include="Content\img\cup.PNG" />
     <Content Include="Content\img\facebook.gif" />
     <Content Include="Content\img\jpg\1.jpg" />
@@ -142,10 +143,12 @@
     <Content Include="Content\img\jpg\4.jpg" />
     <Content Include="Content\img\keyboard.PNG" />
     <Content Include="Content\img\linkedin-Icon-BW.png" />
+    <Content Include="Content\img\loading.gif" />
     <Content Include="Content\img\mouse.PNG" />
     <Content Include="Content\img\movil.PNG" />
     <Content Include="Content\img\notebook.PNG" />
     <Content Include="Content\img\postit.PNG" />
+    <Content Include="Content\img\mac.png" />
     <Content Include="Content\img\twitter.png" />
     <Content Include="Content\style.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -221,6 +224,7 @@
     <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
     <Content Include="Scripts\modernizr.js" />
+    <Content Include="Scripts\scripts.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
