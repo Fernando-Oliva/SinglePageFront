@@ -30,6 +30,19 @@ footer
 	font-family:Courier;
 }
 
+.gmail
+{
+	width:40px;
+	vertical-align:middle;
+}
+
+.iphone
+{
+	vertical-align:middle;
+	width:40px;
+}
+
+div.all{display:none}
 
 /* Styles for basic forms
 -----------------------------------------------------------*/

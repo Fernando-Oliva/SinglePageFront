@@ -137,6 +137,8 @@
     <Content Include="Content\img\closebox.png" />
     <Content Include="Content\img\cup.PNG" />
     <Content Include="Content\img\facebook.gif" />
+    <Content Include="Content\img\gmail.png" />
+    <Content Include="Content\img\iPhone.png" />
     <Content Include="Content\img\jpg\1.jpg" />
     <Content Include="Content\img\jpg\2.jpg" />
     <Content Include="Content\img\jpg\3.jpg" />
