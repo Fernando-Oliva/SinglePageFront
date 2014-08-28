@@ -62,7 +62,7 @@ nav ul li a.active {
   display: block;
   position: absolute;
   z-index: 20;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.5);
   overflow: hidden;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
