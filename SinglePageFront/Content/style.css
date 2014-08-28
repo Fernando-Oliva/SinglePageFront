@@ -62,7 +62,7 @@ nav ul li a.active {
   display: block;
   position: absolute;
   z-index: 20;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0);
   overflow: hidden;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -336,6 +336,7 @@ a.expand {
     top: 20%;
     width: 800px;
     z-index: 20;
+    text-align:center;
 }
 
 #toPopup2 {
@@ -352,6 +353,7 @@ a.expand {
     top: 20%;
     width: 800px;
     z-index: 20;
+    text-align:center;
 }
 
 #toPopup3 {
@@ -368,25 +370,29 @@ a.expand {
     top: 20%;
     width: 800px;
     z-index: 20;
+    text-align:center;
 }
 
 #toPopup4 {
-    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
-    background: none repeat scroll 0 0 #FFFFFF;
+    font-family: Bemio;
+    background: none repeat scroll 0 0 #f4f4f4;
     border: 10px solid black;
     border-radius: 13px 13px 13px 13px;
     color: #333333;
     display: none;
-    font-size: 14px;
+    font-size: 20px;
     left: 50%;
     margin-left: -402px;
     position: fixed;
     top: 20%;
     width: 800px;
-    z-index: 20;
+    z-index: 20; 
+    text-align: center;
+    padding-top:20px;
+    padding-bottom:20px;
 }
 
-
+#toPopup4 a:visited{text-decoration:none; color:Black;}
 
 div.loader {
     background: url("../../Content/img/loading.gif") no-repeat scroll 0 0 transparent;
@@ -437,4 +443,25 @@ div#popup_content {
 	font-size:20px;
 	margin-left:20px;
 	font-weight:bold;
+}
+
+div.langSelect
+{
+	display:none;
+	width:100%;
+	height:100%;
+	position:absolute;
+	text-align:center;
+	vertical-align:middle;
+	top:50%;
+}
+
+.lang
+{
+	padding: 10px 15px 10px 15px;
+	border:4px solid #C8C8C8;
+	margin-right:20px;
+	border-radius:40px;
+	font-size:40px;
+	color: Black;
 }

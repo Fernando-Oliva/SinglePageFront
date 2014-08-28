@@ -56,11 +56,23 @@
 </body>
 <script>
 
-    $(document).ready(function () {
-        $("#slide").slideDown("slow", function () {
 
-            $('div.all').fadeIn(3000).removeClass('all');
+    $("#lang").click(function () {
+        $('div.langSelect').fadeOut(3000, function () {
+            $("#slide").slideDown("slow", function () {
+
+                $('div.all').fadeIn(3000).removeClass('all');
+            });
         });
+    });   
+    
+
+    $(document).ready(function () {
+
+        $('div.langSelect').fadeIn(3000, function () { }).removeClass('langSelect');
+
+        
+        
     });
 
 

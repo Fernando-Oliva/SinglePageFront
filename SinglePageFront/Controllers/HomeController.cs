@@ -16,5 +16,10 @@ namespace SinglePageFront.Controllers
             return View();
         }
 
+        public ActionResult Language()
+        {
+            return View();
+        }
+
     }
 }
