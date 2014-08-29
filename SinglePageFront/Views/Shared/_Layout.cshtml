@@ -57,24 +57,54 @@
 <script>
 
 
-    $("#lang").click(function () {
-        $('div.langSelect').fadeOut(3000, function () {
-            $("#slide").slideDown("slow", function () {
 
+var path = window.location.pathname;
+var page = path.split("/").pop();
+
+if (page == "Index")
+{
+    $(document).ready(function () {
+        $("#slide").slideDown("slow", function () {
                 $('div.all').fadeIn(3000).removeClass('all');
-            });
         });
-    });   
-    
+    });
+}
+else
+{
 
     $(document).ready(function () {
 
-        $('div.langSelect').fadeIn(3000, function () { }).removeClass('langSelect');
+        $('div.full').fadeIn(3000);
 
-        
-        
+        $(".btn1").click(function () {
+
+            var lang = "";
+
+            if (event.target.id == "esp") {
+                lang = "ESP";
+            }
+            else {
+                lang = "ENG";
+            }
+
+            $(".full").fadeOut(2000, function () {
+
+                window.location.href = "Home/Index?lang=" + lang;
+
+            })
+        });
+
+        //$(document).ready(function () {
+
+        // $('div.langSelect').fadeIn(3000, function () { }).removeClass('langSelect');
+        // $("#slide").slideDown("slow", function () {
+
+        // $('div.all').fadeIn(3000).removeClass('all');
+        // });
+
+
     });
-
+}
 
 </script>
 </html>

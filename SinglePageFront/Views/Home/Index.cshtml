@@ -1,15 +1,22 @@
 ﻿@{
     ViewBag.Title = "Index";
+
+    int lang;
+    
+    if (Request.QueryString["lang"].Equals("ESP"))
+    {
+        lang = 0;
+    }
+    else
+    {
+        lang = 1;
+    }
 }
 
 
-<div class="langSelect" style="text-align:center; top:50%">
-    <span class="lang" id="lang">Español</span>
-    <a href="Home/Index" class="lang">English</a>
-</div>
+
 
 <div class="content">
-
     <header id="slide">
         <div class="headerNameDiv">
             <span class="headerName">Patricia González de Castro</span>
@@ -22,21 +29,21 @@
     </header>
     <div class="all">
     <div class="descr">
-        <span class="desc">profesional en márketing y comunicación corporativa</span>
+        <span class="desc">@SinglePageFront.Helpers.Languages.Esp(lang, 0)</span>
     </div>
 
     <div id="effect-1" class="effects clearfix">
         <div class="img">
             <img src="../../Content/img/notebook.png" alt="">
             <div class="overlay">
-                <a href="#" class="expand topopup">Educación</a>
+                <a href="#" class="expand topopup">@SinglePageFront.Helpers.Languages.Esp(lang, 1)</a>
                 <!-- <a class="close-overlay hidden">x</a> -->
             </div>
         </div>
         <div class="img" style="margin-left:30px;">
             <img src="../../Content/img/movil.png" alt="">
             <div class="overlay">
-                <a href="#" class="expand topopup2">Experiencia</a>
+                <a href="#" class="expand topopup2">@SinglePageFront.Helpers.Languages.Esp(lang, 3)</a>
                 <!-- <a class="close-overlay hidden">x</a> -->
             </div>
         </div>
@@ -50,14 +57,14 @@
         <div class="img" style="margin-left:30px;">
             <img src="../../Content/img/postit.png" alt="">
             <div class="overlay">
-                <a href="#" class="expand topopup4" style="color:Black;">Contacto</a>
+                <a href="#" class="expand topopup4" style="color:Black;">@SinglePageFront.Helpers.Languages.Esp(lang, 4)</a>
                 <!-- <a class="close-overlay hidden">x</a> -->
             </div>
         </div>
         <div class="img" style="margin-left:30px;">
             <img src="../../Content/img/keyboard.png" alt="">
             <div class="overlay">
-                <a href="#" class="expand topopup3" style="color:Black">Proyectos</a>
+                <a href="#" class="expand topopup3" style="color:Black">@SinglePageFront.Helpers.Languages.Esp(lang, 2)</a>
                 <!-- <a class="close-overlay hidden">x</a> -->
             </div>
         </div>
@@ -73,7 +80,7 @@
     <div id="toPopup"> 
 
         <div class="close"></div>
-       	<span class="popTitle">Educación</span>
+       	<span class="popTitle">@SinglePageFront.Helpers.Languages.Esp(lang, 0)</span>
 		<div id="popup_content"> <!--your content start-->
             <ul>
                 <li>Universidad 1</li>
@@ -94,7 +101,7 @@
     <div id="toPopup2"> 
 
         <div class="close"></div>
-       	<span class="popTitle">Experiencia</span>
+       	<span class="popTitle">@SinglePageFront.Helpers.Languages.Esp(lang, 3)</span>
 		<div id="popup_content"> <!--your content start-->
             <p>
             xPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam,
@@ -118,7 +125,7 @@
     <div id="toPopup3"> 
 
         <div class="close"></div>
-       	<span class="popTitle">Proyectos</span>
+       	<span class="popTitle">@SinglePageFront.Helpers.Languages.Esp(lang, 2)</span>
 		<div id="popup_content"> <!--your content start-->
             <p>
             xPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam,
@@ -142,7 +149,7 @@
     <div id="toPopup4"> 
 
         <div class="close"></div>
-       	<span class="popTitle" style="font-size:40px">Contacto</span>
+       	<span class="popTitle" style="font-size:40px">@SinglePageFront.Helpers.Languages.Esp(lang, 4)</span>
 		<div id="popup_content"> <!--your content start-->
             <p style="vertical-align:middle">
                 <img class="gmail" src="../../Content/img/gmail.png" />

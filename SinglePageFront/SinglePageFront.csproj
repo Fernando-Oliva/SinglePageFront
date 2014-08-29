@@ -126,6 +126,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Languages.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -134,10 +135,16 @@
     <Content Include="Content\img\3.png" />
     <Content Include="Content\img\4.png" />
     <Content Include="Content\img\5.png" />
+    <Content Include="Content\img\6-Colorful-Grungy-Texture01.jpg" />
+    <Content Include="Content\img\bcg_slide-1.jpg" />
+    <Content Include="Content\img\bcg_slide-2.jpg" />
+    <Content Include="Content\img\bcg_slide-3.jpg" />
     <Content Include="Content\img\closebox.png" />
     <Content Include="Content\img\cup.PNG" />
     <Content Include="Content\img\facebook.gif" />
+    <Content Include="Content\img\gear_red.png" />
     <Content Include="Content\img\gmail.png" />
+    <Content Include="Content\img\HD-landscape-Photographs.png" />
     <Content Include="Content\img\iPhone.png" />
     <Content Include="Content\img\jpg\1.jpg" />
     <Content Include="Content\img\jpg\2.jpg" />
@@ -151,6 +158,7 @@
     <Content Include="Content\img\notebook.PNG" />
     <Content Include="Content\img\postit.PNG" />
     <Content Include="Content\img\mac.png" />
+    <Content Include="Content\img\seamless_paper_texture.png" />
     <Content Include="Content\img\twitter.png" />
     <Content Include="Content\style.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
