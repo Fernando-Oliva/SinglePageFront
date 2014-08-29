@@ -18,6 +18,7 @@ namespace SinglePageFront
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Language", id = UrlParameter.Optional }
             );
+
         }
     }
 }

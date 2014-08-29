@@ -36,12 +36,14 @@ footer
 {
 	width:50px;
 	vertical-align:middle;
+	opacity:0.8;
 }
 
 .iphone
 {
 	vertical-align:middle;
 	width:60px;
+	opacity:0.8;
 }
 
 div.all{display:none}

@@ -380,6 +380,10 @@ a.expand {
     background: none repeat scroll 0 0 #f4f4f4;
     background-image: url("../../Content/img/seamless_paper_texture.png");
     border: 10px solid black;
+    
+    
+
+    
     border-radius: 13px 13px 13px 13px;
     color: #333333;
     display: none;

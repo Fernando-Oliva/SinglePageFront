@@ -27,6 +27,9 @@ namespace SinglePageFront.Helpers
             //Contacto
             arrLag[0, 4] = "Contacto";
 
+            //Acerca de
+            arrLag[0, 5] = "Sobre mi";
+
             #endregion
 
             #region English
@@ -44,6 +47,9 @@ namespace SinglePageFront.Helpers
 
             //Contact
             arrLag[1, 4] = "Contact";
+
+            //About
+            arrLag[1, 5] = "About me";
 
             #endregion
 
