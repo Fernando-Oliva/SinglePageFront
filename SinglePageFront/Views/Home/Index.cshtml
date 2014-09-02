@@ -21,9 +21,37 @@
         <div class="headerNameDiv">
             <span class="headerName">Patricia González de Castro  <img src="../../Content/img/gekko.png" width="50px" style="vertical-align:middle"/></span>
             <div class="rss">
-                <a href="#"><img class="imgrss" src="../../Content/img/twitter.png" /></a>
-                <a href="#"><img class="imgrss" src="../../Content/img/facebook.gif" /></a>
-                <a href="#"><img class="imgrss" src="../../Content/img/linkedin-Icon-BW.png" /></a>
+                <a href="#"><img class="imgrss" id="twitter" src="../../Content/img/twitter.png" /></a>    
+                <a href="#"><img class="imgrss" id="facebook" src="../../Content/img/facebook.gif" /></a>
+                <a href="#"><img class="imgrss" id="linkedin" src="../../Content/img/linkedin-Icon-BW.png" /></a>
+
+                <script>
+                    $("#twitter").mouseenter(function () {
+                        $(this).fadeTo("slow", 1);
+                    })
+                    // handle the mouseleave functionality
+                .mouseleave(function () {
+                    $(this).fadeTo("slow", 0.5);
+                });
+
+                $("#facebook").mouseenter(function () {
+                    $(this).fadeTo("slow", 1);
+                })
+                // handle the mouseleave functionality
+                .mouseleave(function () {
+                    $(this).fadeTo("slow", 0.5);
+                });
+
+
+                $("#linkedin").mouseenter(function () {
+                    $(this).fadeTo("slow", 1);
+                })
+                // handle the mouseleave functionality
+                .mouseleave(function () {
+                    $(this).fadeTo("slow", 0.5);
+                });
+                </script>
+
             </div>
         </div>
     </header>
